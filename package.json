@@ -13,6 +13,10 @@
 	"jade"
   ],
   "author": "Nik T",
+  "repository": {
+	"type": "git",
+	"url": "git@github.com:nnmoz/generator-bxdesign.git"
+  },
   "license": "MIT",
   "dependencies": {
 	"chalk": "^0.5.1",
