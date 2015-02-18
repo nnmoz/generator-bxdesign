@@ -1,0 +1,21 @@
+{
+  "name": "generator-bxdesign",
+  "version": "0.0.1",
+  "description": "Yeoman generator for simple front-end workflow. Stylus + jade + babel + LR. Build system Gulp.",
+  "keywords": [
+	"yeoman-generator",
+	"front-end",
+	"babel",
+	"bitrix",
+	"6to5",
+	"gulp",
+	"stylus",
+	"jade"
+  ],
+  "author": "Nik T",
+  "license": "MIT",
+  "dependencies": {
+	"chalk": "^0.5.1",
+	"yeoman-generator": "^0.18.9"
+  }
+}
