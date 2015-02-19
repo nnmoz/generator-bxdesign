@@ -15,7 +15,7 @@ module.exports = generators.Base.extend({
 		this.option('skip-install', {
 			desc: 'Skip immediate installation',
 			type: Boolean,
-			defaults: true
+			defaults: false
 		});
 	},
 
@@ -39,7 +39,7 @@ module.exports = generators.Base.extend({
 			this.mkdir('src');
 			this.fs.copyTpl(
 				this.templatePath('index.jade'),
-				this.destinationPath('index.jade'),
+				this.destinationPath('src/index.jade'),
 				{ project: this.options['project-name'] }
 			);
 			this.copy('style.styl', 'src/style.styl');
